@@ -1,0 +1,34 @@
+FORMAS DE CONECTARSE A UNA API REST
+. GET /users   --> Get obtiene un listado de usuarios
+      /users/:id --> Obtiene un usuario especifico en forma de objeto {user}
+
+. POST /users --> Crea un usuario
+
+. PUT  /users --> Reemplaza un usuario, o un atributo. 
+
+. PATCH /users/:id  --> Es muy similar a PUT, basicamente lo actualiza
+
+.DELETE /users/:id --> Borra un user.
+
+
+
+NODE JS
+
+////  npm init -y
+Esto inicia un package.json.
+
+
+//// npm install -S express
+Instalar EXPRESS y carpetas de NODE
+
+
+//// node api.js
+abre el proyecto
+
+//// npm i -S mongoose
+Install Mongoose para mongoDB
+
+
+
+// user pwd
+admin
